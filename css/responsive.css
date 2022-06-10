@@ -7,16 +7,17 @@
 /*==========================================================================================================*/
 @media only screen and (max-width: 1399px) {
 	.tld-name { padding: 0.2rem 0.8rem; font-size: 1.4rem; }
-	.tld-slider { height: 650px; margin-top: 4rem; }
-	h1 { font-size: 5.988rem; }
+	.tld-slider { height: 580px; margin-top: 4rem; }
+	h1 { font-size: 5.288rem; }
 	h2 { font-size: 3.865rem; }
-	.hero-text, .tld-link { font-size: 1.52rem; }
+	.hero-text-details { max-width: 340px; }
+	.hero-text, .tld-link { font-size: 1.42rem; }
 	.tld-link { margin-top: 1rem; }
-	.tld-search-form .form-control { height: 4rem; font-size: 1.62rem; padding-bottom: 1.3rem; }
-	.tld-search-form .search-btn { font-size: 1.3rem; width: 13rem; }
-	.search-ico { height: 1.6rem; width: 1.6rem; left: 1.6rem; }
+	.tld-search-form .form-control { height: 3.5rem; font-size: 1.42rem; padding-bottom: 1.2rem; }
+	.tld-search-form .search-btn { font-size: 1.1rem; width: 12rem; }
+	.search-ico { height: 1.4rem; width: 1.4rem; left: 1.5rem; }
 	.tld-search-form { padding: 0.5rem 13.5rem 0.5rem 3.3rem; }
-	.hero-banner-slider-box { min-height: 760px; padding: 3.6rem 0; }
+	.hero-banner-slider-box { min-height: 680px; padding: 3.6rem 0; }
 	.section-title { font-size: 1.4rem; }
 	.tld-category-box { padding: 3.1rem 1.8rem; }
 	.tld-category-box h5 { font-size: 1.4rem; }
@@ -36,6 +37,11 @@
 	.spot-light-box { margin: 5rem 0; }
 	.spot-light-box h3 { font-size: 2.5rem; }
 	.btn { padding: 0.9rem 2rem; font-size: 0.9rem; }
+	.btn:hover svg, .btn:active svg, .btn:focus svg { right: -1.5rem; }
+	.btn svg { top: 0.6rem; }
+	.btn.btn-sm { font-size: 0.8rem; padding: 0.7rem 2.175rem 0.8rem; }
+	.btn.btn-sm svg { top: 0.6rem; }
+	.btn.btn-sm:hover svg, .btn.btn-sm:active svg, .btn.btn-sm:focus svg { right: -1.3rem; }
 	.purchase-domain-logo figure { padding: 0.9rem; }
 	.about-box h5 { margin-bottom: 1.3rem; }
 	.about-box { padding: 4rem 0; }
@@ -107,11 +113,12 @@
 	.tld-search-form .form-control { height: 45px; font-size: 1.2rem; }
 	.search-ico { height: 1.3rem; width: 1.3rem; left: 1.1rem; }
 	.tld-search-form { padding: 0.4rem 4.8rem 0.4rem 0.5rem; border-radius: 0.5rem; }
-	.tld-search-form .search-btn { width: 4rem; padding: 0.4rem 1.4rem; background-color: #fff; border: 0; }
+	.tld-search-form .search-btn { width: 4rem; padding: 0.4rem 1.4rem; background-color: #fff; border: 0; border-radius: 0 8px 8px 0; }
 	.search-btn:hover .search-ico svg path { fill:#000000; }
 	.search-ico { display: none; }
 	.search-btn span { display: none; }
-	.search-btn span.search-ico { display: block; }
+	.search-btn span.search-ico { display: block; transform: none; }
+	.search-btn span.search-ico svg { position: static; transform: none; opacity: 1; visibility: visible; }
 	.hero-banner-row { padding: 4rem 0; }
 	.section-title { margin-bottom: 1.6rem; }
 	.swiper-nav .swiper-button-next, .swiper-nav .swiper-button-prev { width: 2.4rem; height: 2.5rem; }
@@ -132,8 +139,8 @@
 	
 	.purchase-domain-logo figure { padding: 0.4rem; margin: 0.2rem 0; }
 	.about-box { padding: 2rem 0; }
-	.hero-banner-slider-box { min-height: 100vh; height: auto; }
-	.hero-banner-slider-box::after { background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 23.44%), linear-gradient(180deg, rgba(0, 0, 0, 0) 34.04%, #000000 100%); }
+	.hero-banner-slider-box { min-height: 100vh; height: auto; padding: 3.6rem 0 2.125rem 0; }
+	/*.hero-banner-slider-box::after { background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 23.44%), linear-gradient(180deg, rgba(0, 0, 0, 0) 34.04%, #000000 100%); }*/
 	.hero-text, .tld-link, .spot-light-box { font-size: 1.1rem; }
 	.hero-text { margin-top: 9rem; } 
 	.hero-text h1 { padding-right: 7rem; }
@@ -146,6 +153,12 @@
 	.spot-light-row:after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; z-index: -1; background: linear-gradient(200.11deg, rgba(0, 0, 0, 0) 40.78%, rgba(0, 0, 0, 0.8) 69.89%); }
 	.footer-top:after { content: ""; position: absolute; left: var(--bs-gutter-x,.75rem); right: var(--bs-gutter-x,.75rem); bottom: 0; height: 1px; background: #747474; }
 	.footer-top { border: 0; position: relative; }
+	.spot-light-row { min-height: inherit; }
+	.spot-light-row .bg-img { background-position: top right; }
+	.font-xl { font-size: 1.125rem; }
+	.font-l { font-size: 1rem; }
+	.btn.btn-sm { font-size: 0.9rem; padding: 0.8rem 1.975rem 0.8rem; }
+	
 }
 /*==========================================================================================================*/
 /* only iphone4 landscape & Potriat 300 by 480*/
