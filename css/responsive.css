@@ -9,7 +9,7 @@
 	.tld-name { padding: 0.2rem 0.8rem; font-size: 1.4rem; }
 	.tld-slider { height: 580px; margin-top: 4rem; }
 	h1 { font-size: 5.288rem; }
-	h2 { font-size: 3.865rem; }
+	h2 { font-size: 3.265rem; }
 	.hero-text-details { max-width: 340px; }
 	.hero-text, .tld-link { font-size: 1.42rem; }
 	.tld-link { margin-top: 1rem; }
@@ -18,14 +18,21 @@
 	.search-ico { height: 1.4rem; width: 1.4rem; left: 1.5rem; }
 	.tld-search-form { padding: 0.5rem 13.5rem 0.5rem 3.3rem; }
 	.hero-banner-slider-box { min-height: 680px; padding: 3.6rem 0; }
-	.section-title { font-size: 1.4rem; }
-	.tld-category-box { padding: 3.1rem 1.8rem; }
-	.tld-category-box h5 { font-size: 1.4rem; }
-	.spot-light-box { font-size: 1.4rem; }
-	.spot-light-box h5 { font-size: 2.545rem; }
-	.spot-light-box h3 { font-size: 3.965rem; }
-	.btn { padding: 1.1rem 2.4rem; }
+	.section-title { font-size: 1.1rem; }
+	.tld-category-box { padding: 2.8rem 1.3rem; }
+	.tld-category-box h5 { font-size: 1.2rem; }
+	.tld-category-info .arrow-ico { height: 1rem; width: 1rem; margin: 0.2rem 0 0 0.6rem; }
+	.spot-light-box { margin: 6rem 0; font-size: 1.1rem; }
+	.spot-light-box h5 { font-size: 2.145rem; }
+	.spot-light-box h3 { font-size: 3.565rem; }
+	.btn { padding: 1rem 2.2rem; font-size: 1rem; }
+	.btn:hover span, .btn:active span, .btn:focus span { transform: translate3d(-0.8rem, 0, 0); }
+	.btn:hover svg, .btn:active svg, .btn:focus svg { opacity: 1; right: -1.7rem; }
 	.section-row { padding: 4rem 0; }
+	.spot-light-row { min-height: inherit; }
+	h3 { font-size: 2.145rem; }
+	.tld-search-bottom .tld-search { margin: 0 auto; width: 88%; }
+	.navbar-nav li { font-size: 1rem; }
 
 }
 
@@ -54,7 +61,7 @@
 	.tld-search-form .search-btn { font-size: 1.1rem; width: 11.5rem; }
 	.search-ico { height: 1.4rem; width: 1.4rem; left: 1.4rem; }
 	.tld-search-form { padding: 0.5rem 12rem 0.5rem 2.5rem; }
-	h3 { font-size: 2.645rem; }
+	/* h3 { font-size: 2.645rem; } */
 	.section-title { font-size: 1.3rem; margin-bottom: 2rem; }
 	.tld-category-box { padding: 2.1rem 2rem; }
 	.tld-category-box h5 { font-size: 1.35rem; }
@@ -121,7 +128,6 @@
 	.search-btn span.search-ico svg { position: static; transform: none; opacity: 1; visibility: visible; }
 	.hero-banner-row { padding: 4rem 0; }
 	.section-title { margin-bottom: 1.6rem; }
-	.swiper-nav .swiper-button-next, .swiper-nav .swiper-button-prev { width: 2.4rem; height: 2.5rem; }
 	.swiper-nav .swiper-button-next::after, .swiper-nav .swiper-button-prev::after { font-size: 0.9rem; }
 	.spot-light-box { margin: 10rem 0 0; }
 	.spot-light-box h5 { font-size: 1.645rem; }
@@ -137,7 +143,7 @@
 	.section-row { padding: 2rem 0; }
 	.btn.btn-xs { font-size: 0.75rem; padding: 0.7rem 1.1rem; }
 	
-	.purchase-domain-logo figure { padding: 0.4rem; margin: 0.2rem 0; }
+	.purchase-domain-logo figure { padding: 1.2rem 2rem; margin: 0.2rem 0; }
 	.about-box { padding: 2rem 0; }
 	.hero-banner-slider-box { min-height: 100vh; height: auto; padding: 3.6rem 0 2.125rem 0; }
 	/*.hero-banner-slider-box::after { background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 23.44%), linear-gradient(180deg, rgba(0, 0, 0, 0) 34.04%, #000000 100%); }*/
@@ -158,6 +164,9 @@
 	.font-xl { font-size: 1.125rem; }
 	.font-l { font-size: 1rem; }
 	.btn.btn-sm { font-size: 0.9rem; padding: 0.8rem 1.975rem 0.8rem; }
+	.tld-search-bottom .tld-search { width: 100%; }
+	.spot-light-box { max-width: 300px; width: 100%; }
+	.section-title.text-center p { margin-left: auto; margin-right: auto; }
 	
 }
 /*==========================================================================================================*/
@@ -174,5 +183,6 @@
 	.spot-light-box h3 { font-size: 1.813rem; }
 	.flogo { min-width: 210px; }
 	.f-social a { width: 1.625rem; }
+	.purchase-domain-logo figure { padding: 0.4rem; }
 
 }

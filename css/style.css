@@ -52,7 +52,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="tel
 ========================================================================================*/
 html, body { -webkit-font-smoothing:antialiased; -moz-font-smoothing:antialiased; -ms-font-smoothing:antialiased; font-smoothing:antialiased; /* Fix for webkit rendering */ -webkit-text-size-adjust:100%; height: 100%; }
 html { overflow-y: inherit !important; }
-body { font-size:16px; line-height:1.45; font-weight: normal; font-family: 'GDSherpa-Regular', Arial, Helvetica, sans-serif; color:#000; }
+body { font-size:16px; line-height:1.45; font-weight: normal; font-family: 'GDSherpa-Regular', Arial, Helvetica, sans-serif; color:#111; }
 img { vertical-align:top; border:0; }
 a, input[type="button"], input[type="submit"], button, table th, table td { -webkit-transition:0.5s all; transition:0.5s all; }
 .allanim { -webkit-transition:0.5s all; transition:0.5s all; }
@@ -67,7 +67,7 @@ b, strong { font-weight: bold; font-family: 'GDSherpa-Semibold', 'Lato', sans-se
 small, .small { font-size: 85%; }
 sub, sup { font-size:80% }
 p { margin:0 0 20px 0; }
-h1,h2, h3, h4, h5, h6 { line-height:1.2; margin:0 0 10px; color: #000; font-family: 'GDSherpa-Semibold', 'Lato', sans-serif; }
+h1,h2, h3, h4, h5, h6 { line-height:1.2; margin:0 0 10px; color: #111; font-family: 'GDSherpa-Semibold', 'Lato', sans-serif; }
 h1 { font-size:7.688rem; } 
 h2 { font-size:4.765rem; }
 h3 { font-size:2.945rem; }
@@ -157,7 +157,7 @@ img { max-width: 100%; height: auto; }
 
 /* =Form Css
 ========================================================================================*/
-.btn { font-weight: normal; font-family: 'GDSherpa-Semibold', 'Lato', sans-serif; padding: 1.3rem 2.9rem; font-size: 1.125rem; line-height: 1.25; text-decoration: none !important; border-width: 1px; border-style: solid; box-shadow: none !important; letter-spacing: 0.03rem; transition: 0.5s all; border-radius: 0.5rem; }
+.btn { font-weight: normal; font-family: 'GDSherpa-Semibold', 'Lato', sans-serif; padding: 1.3rem 2.9rem; font-size: 1.125rem; line-height: 1.25; text-decoration: none !important; border-width: 1px; border-style: solid; box-shadow: none !important; letter-spacing: 0.03rem; transition: 0.5s all; border-radius: 8px; }
 .btn span { display: inline-block; position: relative; transition: 0.5s all; will-change: transform; }
 .btn:hover span, .btn:active span, .btn:focus span { transform: translate3d(-1rem, 0, 0); }
 .btn svg { position: absolute; width: 1.1em; right: 0rem; opacity: 0; top: 50%; transform: translateY(-50%); transition: 0.5s all; will-change: right, opacity; top: 0.8rem }
@@ -231,10 +231,11 @@ select::-ms-expand { display:none; }
 .search-ico svg path { fill:#9d9d9d; transition: 0.5s all; }
 .tld-search-form .form-control { height: 5rem; font-size:1.82rem; border: 0; box-shadow: none; background: transparent; border-radius: 0; padding-bottom: 1.6rem; }
 .tld-search-form .search-btn { position: absolute; top: 0; right: 0; bottom: 0; border-radius: 0 15px 15px 0; font-size: 1.5rem; width: 17rem; font-family: "GDSherpa-Bold"; font-weight: normal; padding: 0.4rem 1.2rem; }
+.tld-search-form .btn span { transform: none; }
 .hero-text h1 { color: #fff; font-weight:500; margin-bottom: 2rem; line-height: 1; }
 .tld-domain-slider { height: 73vh; height: 790px; max-width: 350px; margin-left: auto; margin-right: 0; margin-top: 2rem; }
 .tld-domain-slider .swiper-wrapper { padding-left: 5rem; }
-.tld-name { background: #61edea; color: #000; font-size: 1.5rem; font-weight: normal; padding: 0.4rem 1rem; display: inline-block; border-radius: 0 50px 50px 0; transition: 0.5s all; text-transform: uppercase; font-family: "GDSherpa-Bold"; cursor: pointer; }
+.tld-name { background: #61edea; color: #111; font-size: 1.5rem; font-weight: normal; padding: 0.4rem 1rem; display: inline-block; border-radius: 0 50px 50px 0; transition: 0.5s all; text-transform: uppercase; font-family: "GDSherpa-Bold"; cursor: pointer; }
 /*.swiper-slide-active .tld-name,*/ .swiper-slide-thumb-active .tld-name{ background: #ffd9b4; }
 .slider-nav { position: absolute; bottom: 0; left: 0; }
 .slider-nav .swiper-button-next, .slider-nav .swiper-button-prev { width: 3rem; height: 3rem; color: #fff; border: 2px solid #fff; top: 0; margin: 0; position: relative; left: 0; border-radius: 50%; transform: rotate(90deg); margin: 1rem; opacity: 0.6; transition: 0.5s all; }
@@ -251,7 +252,7 @@ select::-ms-expand { display:none; }
 .section-title h2:last-child { margin-bottom: 0; }
 .section-title p { margin: 0; max-width: 520px; width: 100%; }
 .swiper-nav { display: flex; margin-top: 1rem; }
-.swiper-nav .swiper-button-next, .swiper-nav .swiper-button-prev { width: 3rem; height: 3rem; color: #000; border: 2px solid #000; top: 0; margin: 0; position: relative; left: 0; border-radius: 50%; opacity: 0.5; margin: 0 1rem 0 0; transition: 0.5s all; outline: none; box-shadow: none; }
+.swiper-nav .swiper-button-next, .swiper-nav .swiper-button-prev { width: 3rem; height: 3rem; color: #111; border: 2px solid #111; top: 0; margin: 0; position: relative; left: 0; border-radius: 50%; opacity: 0.5; margin: 0 1rem 0 0; transition: 0.5s all; outline: none; box-shadow: none; }
 .swiper-nav .swiper-button-next:after, .swiper-nav .swiper-button-prev:after { font-size: 1rem; font-weight: bold; }
 .swiper-nav .swiper-button-next:hover, .swiper-nav .swiper-button-prev:hover { opacity: 1; }
 
