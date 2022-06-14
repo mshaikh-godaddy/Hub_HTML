@@ -148,8 +148,9 @@
 	.hero-banner-slider-box { min-height: 100vh; height: auto; padding: 3.6rem 0 2.125rem 0; }
 	/*.hero-banner-slider-box::after { background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 23.44%), linear-gradient(180deg, rgba(0, 0, 0, 0) 34.04%, #000000 100%); }*/
 	.hero-text, .tld-link, .spot-light-box { font-size: 1.1rem; }
-	.hero-text { margin-top: 9rem; } 
-	.hero-text h1 { padding-right: 7rem; }
+	.hero-text { margin-top: 13rem; } 
+	.hero-text h1 { /*padding-right: 7rem;*/ padding-right: 0; }
+	.hero-text h1 br { display: none; }
 	.section-title { font-size: 1.1rem; }
 	.tld-category-box h5 { font-size: 1.25rem; }
 	.btn { padding: 1.1rem 1.6rem; font-size: 1rem; }
@@ -167,13 +168,14 @@
 	.tld-search-bottom .tld-search { width: 100%; }
 	.spot-light-box { max-width: 300px; width: 100%; }
 	.section-title.text-center p { margin-left: auto; margin-right: auto; }
+	.search-btn .search-ico svg path { fill: #767676; }
 	
 }
 /*==========================================================================================================*/
 /* only iphone4 landscape & Potriat 300 by 480*/
 @media only screen and (max-width: 575px) {
 	.tld-link { margin-top: 1.4rem; }
-	.hero-text h1 { margin-bottom: 1rem; }
+	.hero-text h1 { margin-bottom: 1rem; font-size: 1.82rem; }
 	h1, h2 { font-size: 2.25rem; }
 	.tld-category-box { padding: 1.4rem 0 1.4rem 0.9rem; }
 	.tld-category-box h5 { font-size: 1.05rem; }
@@ -184,5 +186,9 @@
 	.flogo { min-width: 210px; }
 	.f-social a { width: 1.625rem; }
 	.purchase-domain-logo figure { padding: 0.4rem; }
+	.hero-text-details { max-width: 260px; }
+	.search-ico { height: 1.125rem; width: 1.125rem; }
+	.tld-search-bottom-row .section-row { padding: 0.5rem 0; }
+	
 
 }

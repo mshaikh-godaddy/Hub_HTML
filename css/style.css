@@ -264,7 +264,7 @@ select::-ms-expand { display:none; }
 .tld-category-box:hover { background: #0B3354; text-decoration: none; }
 .tld-category-box:hover .tld-category-img { opacity: 1; visibility: visible; }
 .tld-category-box:hover h5 { color: #fff; }
-.tld-category-info .arrow-ico { height: 20px; width: 20px; margin: 0.6rem 0 0 0.6rem; transform: translateX(-100%); opacity: 0; visibility: hidden; -webkit-transition: 0.5s all; transition: 0.5s all; }
+.tld-category-info .arrow-ico { height: 20px; width: 20px; margin: 0.2rem 0 0 0.6rem; transform: translateX(-100%); opacity: 0; visibility: hidden; -webkit-transition: 0.5s all; transition: 0.5s all; }
 .tld-category-info .arrow-ico svg { vertical-align: top; width: 100%; height: auto; }
 .tld-category-box:hover .tld-category-info .arrow-ico { opacity: 1; visibility: visible; transform: none; }
 
