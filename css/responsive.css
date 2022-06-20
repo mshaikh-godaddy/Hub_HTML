@@ -68,6 +68,7 @@
 	.tld-category-box h5 { font-size: 1.35rem; }
 	.tld-category-info .arrow-ico { height: 1rem; width: 1rem; }
 	.spot-light-box { font-size: 1.2rem; }
+	.tld-tabs-title-box .btn { min-width: 108px; }
 }
 
 /*==========================================================================================================*/
@@ -171,7 +172,8 @@
 	.section-title.text-center p { margin-left: auto; margin-right: auto; }
 	.search-btn .search-ico svg path { fill: #767676; }
 	.trusted-partner-card-box { padding: 1.5rem 1rem; }
-	
+	.tld-tabs-title-box .btn { min-width: 130px; }
+	.small-container { width: 100%; }
 }
 /*==========================================================================================================*/
 /* only iphone4 landscape & Potriat 300 by 480*/
@@ -197,5 +199,6 @@
 	.tld-name-tabs-box { margin-bottom: 0.7rem; }
 	.trusted-all-options-btn { text-align: left; }
 	.trusted-options-triger { padding: 0.8rem 1.975rem 1rem; font-size: 0.9rem; }
+	.tld-tabs-title-box .btn { margin-left: 0; }
 
 }
