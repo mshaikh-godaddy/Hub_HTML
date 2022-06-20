@@ -294,6 +294,7 @@ select::-ms-expand { display:none; }
 .tld-name-tabs-box h4 { font-size: 1.5rem; }
 .tld-tabs-box { padding: 1rem 0; border-bottom: 1px solid #D6D6D6; }
 .tld-tabs-list .tld-tabs-box:last-child { padding-bottom: 0; border-bottom: 0; }
+.tld-info-box h3 { white-space: normal; word-break: break-all; }
 .tld-info-box h3 strong, .tld-name-tabs-box h4 strong { font-family: "GDSherpa-Bold"; font-weight: normal; }
 
 .tld-tabs-title-box .btn.collapsed:hover span, .tld-tabs-title-box .btn.collapsed:active span, .tld-tabs-title-box .btn.collapsed:focus span { transform: translate3d(0, 0, 0); }
