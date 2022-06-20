@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px) {
-	.collapse:not(.show) { display: flex !important; }
+	.navbar-collapse.collapse:not(.show) { display: flex !important; }
 	.mobile-menu, .nav-item .arrow-ico { display: none; }	
 	
 }
@@ -33,6 +33,7 @@
 	h3 { font-size: 2.145rem; }
 	.tld-search-bottom .tld-search { margin: 0 auto; width: 88%; }
 	.navbar-nav li { font-size: 1rem; }
+	.trusted-partner-list .card p { font-size: 1.2rem; } 
 
 }
 
@@ -169,6 +170,7 @@
 	.spot-light-box { max-width: 300px; width: 100%; }
 	.section-title.text-center p { margin-left: auto; margin-right: auto; }
 	.search-btn .search-ico svg path { fill: #767676; }
+	.trusted-partner-card-box { padding: 1.5rem 1rem; }
 	
 }
 /*==========================================================================================================*/
@@ -189,6 +191,11 @@
 	.hero-text-details { max-width: 260px; }
 	.search-ico { height: 1.125rem; width: 1.125rem; }
 	.tld-search-bottom-row .section-row { padding: 0.5rem 0; }
-	
+	.trusted-partner-list .card p { max-width: 203px; text-align: center; }
+	.trusted-partner-list .card .btn { max-width: 203px; width: 100%; }
+	.trusted-partner-list .card figure { margin-left: 0; margin-right: 0; }
+	.tld-name-tabs-box { margin-bottom: 0.7rem; }
+	.trusted-all-options-btn { text-align: left; }
+	.trusted-options-triger { padding: 0.8rem 1.975rem 1rem; font-size: 0.9rem; }
 
 }
