@@ -34,7 +34,7 @@
 	.tld-search-bottom .tld-search { margin: 0 auto; width: 88%; }
 	.navbar-nav li { font-size: 1rem; }
 	.trusted-partner-list .card p { font-size: 1.2rem; } 
-
+	.tld-slider .splide__track { margin-top: -38px; }
 }
 
 /*==========================================================================================================*/
@@ -69,11 +69,12 @@
 	.tld-category-info .arrow-ico { height: 1rem; width: 1rem; }
 	.spot-light-box { font-size: 1.2rem; }
 	.tld-tabs-title-box .btn { min-width: 108px; }
+	.tld-slider .splide__track { margin-top: -34px; }
 }
 
 /*==========================================================================================================*/
 @media only screen and (max-width: 991px) {
-	.tld-slider { height: 420px; margin-top: 6rem; }
+	.tld-slider { /*height: 420px;*/ height: auto; margin-top: 6rem; }
 	.section-row { padding: 3rem 0; }
 	.logo { max-width: 200px; }
 	.navbar-nav li { margin-right: 0.8rem; font-size: 1.1rem; }
@@ -115,7 +116,7 @@
 	.navbar-collapse .navbar-toggler svg path { fill: #fff; }
 	.tld-slider .slider-nav { display: none; }
 	.tld-slider .swiper-wrapper { padding-left:0 ; }
-	.tld-slider { max-width: 120px; height: 170px; }
+	.tld-slider { max-width: 150px; height: 175px; }
 	.tld-name { font-size: 1rem; padding: 0.2rem 0.8rem; }
 	h1, h2 { font-size: 2.6rem; }
 	.hero-text { margin-top: -6rem; }
@@ -174,6 +175,11 @@
 	.trusted-partner-card-box { padding: 1.5rem 1rem; }
 	.tld-tabs-title-box .btn { min-width: 130px; }
 	.small-container { width: 100%; }
+	.tld-available-info h2 { font-size: 2.25rem; }
+	.tld-available-info h3 { font-size: 1.613rem; }
+	.tld-slider .splide__track { margin-top: -29px; }
+	.tld-slider .splide__arrows { display: none; }
+	.tld-slider .splide__track { padding-left: 0; }
 }
 /*==========================================================================================================*/
 /* only iphone4 landscape & Potriat 300 by 480*/
@@ -200,5 +206,8 @@
 	.trusted-all-options-btn { text-align: left; }
 	.trusted-options-triger { padding: 0.8rem 1.975rem 1rem; font-size: 0.9rem; }
 	.tld-tabs-title-box .btn { margin-left: 0; }
-
+	.tld-available-info { padding: 2.8rem 0; }
+	.tld-available-info h2 { font-size: 1.813rem; }
+	.tld-available-info h3 { font-size: 1.125rem; }
+	
 }
