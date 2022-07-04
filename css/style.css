@@ -282,7 +282,6 @@ select::-ms-expand { display:none; }
 
 .bg-theme { background-color: #1BDBDB; }
 @keyframes scroll-anim { 100% { background-position: 100% 20%; } 100% { background-position: -100% 20%; } }
-
 .tld-search-bottom h3 { font-family: "GDSherpa-Semibold"; }
 
 /* Search Result Css
@@ -337,9 +336,24 @@ select::-ms-expand { display:none; }
 .domain-process-step p:last-child { margin-bottom: 0; }
 .domain-process-step.step-complete { border-color: #1BDBDB; }
 .step-complete .process-check { display: block; }
-.tld-search-form-box .tld-search-form .form-control { font-family: "GDSherpa-Semibold"; }
+.tld-search-form-box .tld-search-form .form-control { font-family: "GDSherpa-Semibold"; padding-top: 1.4rem; }
 .tld-search-form-box .tld-search-form .search-btn { top: -2px; bottom: -2px; right: -2px; }
 
+.tld-not-available { color: #444; border: 2px solid #F5F5F5; }
+.tld-not-available h3 { color: #444; }
+.tld-not-available h3 figure { margin: 0.513rem 0.813rem 0 0; width: 2.5rem; height: 2.5rem; }
+.tld-not-available h3 figure svg { vertical-align: top; width: 100%; height: auto; }
+
+.domain-model .modal-body { padding: 5rem; }
+.domain-model .modal-body p, .domain-model .modal-body h3 { padding: 0; margin-bottom: 1.5rem; min-width: 100%; }
+.domain-model .modal-body p:last-child { margin-bottom: 0; }
+.domain-model .modal-body a { color: inherit; text-decoration: underline; }
+.modal .modal-content { border-radius: 0; border: 0; box-shadow: 0px 0px 54px rgba(17, 17, 17, 0.07), 0px 48px 36px rgba(17, 17, 17, 0.1), 0px 27px 36px rgba(17, 17, 17, 0.07); }
+.modal-backdrop { background-color: #111; }
+.modal-backdrop.show { opacity: .4; }
+@media only screen and (min-width: 992px) {
+  .domain-model .modal-lg { max-width: 740px; }
+}
 
 /* splide slide Code
 ==================================================================*/
@@ -351,3 +365,4 @@ select::-ms-expand { display:none; }
 
 
 
+ 
