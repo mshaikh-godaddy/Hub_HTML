@@ -35,6 +35,11 @@
 	.navbar-nav li { font-size: 1rem; }
 	.trusted-partner-list .card p { font-size: 1.2rem; } 
 	.tld-slider .splide__track { margin-top: -38px; }
+	.tld-slider .splide__arrows .splide__arrow { margin: 1rem 1rem 0; }
+	h4 { font-size: 1.32rem; }
+	.domain-process-step .font-l { font-size: 1rem; }
+	.tld-slider-main-box { width: 40%; }
+	.tld-slider .splide__arrows { bottom: 0; }
 }
 
 /*==========================================================================================================*/
@@ -70,6 +75,8 @@
 	.spot-light-box { font-size: 1.2rem; }
 	.tld-tabs-title-box .btn { min-width: 108px; }
 	.tld-slider .splide__track { margin-top: -34px; }
+	.tld-slider .splide__arrows { bottom: 1.1rem; }
+	.tld-slider-main-box { width: 35%; }
 }
 
 /*==========================================================================================================*/
@@ -98,10 +105,10 @@
 	/*.header-menu .navbar-collapse { position: fixed; background: rgba(0,0,0,0.9); left: 0; right: 0; top: 0; bottom: 0; display: block; transform: translateX(-100%); transition: 0.5s all; opacity: 0; visibility: hidden; height: 100vh !important; overflow: auto; padding: 1.5rem; }
 	.header-menu .navbar-collapse.show { opacity: 1; visibility: visible; transform: translateX(0); }*/
 	.header-menu .navbar-nav { flex-direction: column; } 
-	.navbar-collapse { background: #fff; }
+	.navbar-collapse { background: #fff; box-shadow: 0px 0px 18px rgba(17, 17, 17, 0.07), 0px 16px 12px rgba(17, 17, 17, 0.1), 0px 9px 12px rgba(17, 17, 17, 0.07); }
 	.navbar-nav li { margin: 0; font-size: 1.125rem; }
 	.navbar-nav li a { color: #111; }
-	.navbar-nav li a:hover, .navbar-nav li a:focus { background: #61edea; color: #111; }
+	.navbar-nav li a:hover, .navbar-nav li a:focus, .black-header .navbar-nav li a:hover { background: #61edea; color: #111; }
 	.mobile-menu ul { margin: 0; padding: 0; list-style: none; }
 	.mobile-menu { margin-top: 1rem; }
 	.mobile-menu ul li { line-height: 1.25; margin-bottom: 1rem; font-size: 1rem; }
@@ -180,6 +187,14 @@
 	.tld-slider .splide__track { margin-top: -29px; }
 	.tld-slider .splide__arrows { display: none; }
 	.tld-slider .splide__track { padding-left: 0; }
+	.black-header#header { padding: 1.1rem 0; }
+
+	.domain-process-step { border-top: 0; border-left: 10px solid #D6D6D6; padding: 0.3rem 0 0.4rem 0.875rem; }
+	h4 { font-size: 1.125rem; }
+	.process-check { margin: 0 0 0 0.5rem; }
+	.domain-process-step h4 { margin-bottom: 0.3rem; }
+	.tld-slider-main-box { height: 50%; }
+
 }
 /*==========================================================================================================*/
 /* only iphone4 landscape & Potriat 300 by 480*/
@@ -209,5 +224,13 @@
 	.tld-available-info { padding: 2.8rem 0; }
 	.tld-available-info h2 { font-size: 1.813rem; }
 	.tld-available-info h3 { font-size: 1.125rem; }
+	.tld-tabs-box { padding: 1.5rem 0; }
 	
+}
+
+@media only screen and (max-width: 419px) {
+  .tld-slider .splide__track { height: 200px !important; }
+  .tld-slider { margin-top: 4.5rem; }
+  .tld-search-form { padding: 0.4rem 4.4rem 0.4rem 0.5rem; }
+  .tld-search-bottom .tld-search-form .form-control { padding: 0 0 0 0.5rem; font-size: 1.1rem; }
 }

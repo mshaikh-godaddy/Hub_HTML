@@ -142,7 +142,7 @@
 			// },
 			breakpoints : {
 				419: {
-					heightRatio : 1.5,
+					heightRatio: 1.8,
 					perPage: 6,
 				},
 				575: {
