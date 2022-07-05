@@ -118,6 +118,7 @@
 			});
 		}
 
+		
 		var main = new Splide( '.main-slider', {
 			type   : 'fade',
 			heightRatio: 0.5,
