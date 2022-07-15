@@ -1,6 +1,7 @@
 @media only screen and (min-width: 768px) {
 	.navbar-collapse.collapse:not(.show) { display: flex !important; }
 	.mobile-menu, .nav-item .arrow-ico { display: none; }	
+	.container.large-container { max-width: 1638px; width: 86%; }
 	
 }
 
@@ -41,6 +42,16 @@
 	.tld-slider-main-box { width: 40%; }
 	.tld-slider .splide__arrows { bottom: 0; }
 	.tld-search-form-box .tld-search-form .form-control { padding-top: 1rem; }
+	.trusted-partner-list .card .btn { padding: 0.5rem 1rem 0.6rem; font-size: 0.9rem; }
+
+
+	.tld-banner-box .tld-text { max-width: 575px; }
+	.spot-feature-box { padding: 5.75rem 5.5rem; }
+	.spot-feature-details { padding-left: 2rem; line-height: 1.4; }
+	.spot-feature-details .font-xl { font-size: 1.1rem; }
+	.spot-feature-details h4, .spot-feature-details p { margin-bottom: 1rem; }
+	.tld-cell-box h4 { margin-bottom: 0.5rem; }
+	.tld-cell-box { padding: 2.05rem; font-size: 1.1rem; }
 }
 
 /*==========================================================================================================*/
@@ -79,6 +90,12 @@
 	.tld-slider .splide__arrows { bottom: 1.1rem; }
 	.tld-slider-main-box { width: 35%; }
 	.domain-model .modal-body { padding: 4rem; }
+	
+	.spot-feature-box { padding: 3.45rem 3rem; }
+	.tld-cell-box { padding: 1.55rem; font-size: 1rem; }
+	.who-using-tld-box .font-xl { font-size: 1.3rem; }
+	.who-using-tld-box figure { margin-bottom: 1.1rem; }
+
 }
 
 /*==========================================================================================================*/
@@ -94,11 +111,14 @@
 	h2 { font-size: 2.7rem; }
 	.tld-search-bottom { max-width: 580px; margin: 0 auto; width: 100%; }
 
+	.tld-banner-box .tld-text { max-width: 485px; }
+	.spot-feature-details { padding-left: 0; }
+
 } 
 
 /*==========================================================================================================*/
 @media only screen and (max-width: 767px) {
-	.container { width: 100%; }
+	.container { width: 100%; padding: 0 1rem; }
 	.logo { max-width: 210px; }
 	.header-menu { position: absolute; top: 100%; right: 0; left: 0; }
 	body { font-size: 14px; }
@@ -201,6 +221,22 @@
 	.tld-search-form-box .tld-search-form .form-control { padding-top: 0; padding-left: 0.5rem; padding-bottom: 0; }
 	.domain-model .modal-body { padding: 3rem; font-size: 1rem; }
 
+	.spot-feature-details h4, .spot-feature-details p { margin-bottom: 1.1rem; }
+	.tld-banner-box .tld-text { max-width: 100%; padding-top: 2rem; }
+	.spot-feature-box { padding: 2.5rem 1.5rem; border-radius: 0; }
+	.spot-feature-img { max-width: 100%; margin: 0 auto 2rem; }
+	.spot-feature-img figure { text-align: left; }
+	.spot-feature-details .font-xl { font-size: 1rem; }
+	.section-row.spot-feature-row { padding-top: 1rem; }
+	.section-title h2 { font-size: 2.945rem; }
+	.tld-cell-row .section-title { margin-bottom: -0.1rem; }
+	.who-using-tld-row .section-title { margin-bottom: 1rem; font-size: 1.5rem; }
+	.tld-cell-box { padding: 2.5rem 2rem; font-size: 1rem; }
+	.who-using-tld-box figure { margin-bottom: 1rem; }
+	.who-using-tld-box .font-xl { font-size: 1.125rem; }
+	.who-using-tld-box { margin-bottom: 1rem; }
+	.tld-site-link .font-xl { font-size: 1.5rem; }
+
 }
 /*==========================================================================================================*/
 /* only iphone4 landscape & Potriat 300 by 480*/
@@ -234,6 +270,9 @@
 	.domain-model .modal-body { padding: 2rem; }
 	.modal-dialog { margin: 0 2rem; }
 	.domain-model .modal-body p, .domain-model .modal-body h3 { margin-bottom: 1rem; }
+
+	.tld-text h2 { font-size: 1.813rem; }
+	#header { padding: 1.2rem 0; }
 	
 }
 

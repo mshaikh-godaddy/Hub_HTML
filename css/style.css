@@ -363,3 +363,32 @@ select::-ms-expand { display:none; }
 .is-active .banner-img { opacity: 1; visibility: visible; }
 .splide__slide.is-prev { opacity: 0; visibility: hidden; }
 
+
+
+/* Tld Details page CSS
+==================================================================*/
+.tld-banner-box .banner-img { opacity: 1; visibility: visible; }
+.tld-banner-box .hero-banner-slider-box { background-color: #767676; min-height: 100vh; height: auto; }
+.tld-banner-box .tld-text { max-width: 795px; width: 100%; padding-top: 4rem; }
+
+.spot-feature-box { padding: 8.75rem 8.5rem; background: #0B3354; color: #fff; border-radius: 0 500px 500px 0; }
+.spot-feature-details h4 { color: inherit; }
+.spot-feature-details a { color: inherit; font-family: 'GDSherpa-Semibold', 'Lato', sans-serif; text-decoration: underline; }
+.spot-feature-details h4, .spot-feature-details p { margin-bottom: 2rem; }
+
+.spot-feature-img { max-width: 522px; width: 100%; }
+.spot-feature-img figure { margin: 0; text-align: center; }
+.spot-feature-img img { max-width: 100%; height: auto; }
+.spot-feature-details { padding-left: 3rem; max-width: 710px; margin-left: auto; width: 100%; }
+
+.tld-cell-box { border: 2px solid #D6D6D6; border-radius: 2rem; padding: 3.75rem; font-size: 1.5rem; height: 100%; }
+.tld-cell-box h4 { margin-bottom: 1rem; }
+.tld-cell-box p:last-child { margin-bottom: 0; }
+.who-using-tld-box a { display: block; color: #111111; text-decoration: none; }
+.who-using-tld-box figure { margin: 0 0 2rem 0; width: 100%; position: relative; overflow: hidden; border-radius: 0.5rem; border: 1px solid #D6D6D6; }
+.who-using-tld-box figure img { width: 100%; height: auto; -webkit-transition: 0.35s all; transition: 0.35s all; transform: scale(1); }
+.who-using-tld-box a:hover figure img { transform: scale(1.05); }
+.tld-site-link a { color: #09757A; text-decoration: underline; }
+
+
+
