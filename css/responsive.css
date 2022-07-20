@@ -52,6 +52,7 @@
 	.spot-feature-details h4, .spot-feature-details p { margin-bottom: 1rem; }
 	.tld-cell-box h4 { margin-bottom: 0.5rem; }
 	.tld-cell-box { padding: 2.05rem; font-size: 1.1rem; }
+	.tld-unsupported h3 { font-size: 2rem; }
 }
 
 /*==========================================================================================================*/
@@ -188,7 +189,7 @@
 	.btn { padding: 1.1rem 1.6rem; font-size: 1rem; }
 	.section-title { font-size: 1rem; }
 	.section-title h3 { margin-bottom: 0.4rem; }
-	h3 { font-size: 1.813rem; }
+	h3, .tld-unsupported h3 { font-size: 1.813rem; }
 	.spot-light-row:after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; z-index: -1; background: linear-gradient(200.11deg, rgba(0, 0, 0, 0) 40.78%, rgba(0, 0, 0, 0.8) 69.89%); }
 	.footer-top:after { content: ""; position: absolute; left: var(--bs-gutter-x,.75rem); right: var(--bs-gutter-x,.75rem); bottom: 0; height: 1px; background: #747474; }
 	.footer-top { border: 0; position: relative; }
