@@ -120,11 +120,14 @@
 
 		
 		var main = new Splide( '.main-slider', {
-			type   : 'fade',
+			type   : 'loop',
 			heightRatio: 0.5,
 			pagination : false,
 			arrows     : false,
 			cover      : true,
+			autoplay: true,
+    		interval: 3000,
+			pauseOnFocus: true,
 		} );
 		  
 		var thumbnails = new Splide( '.thumbnail-slider', {
@@ -137,6 +140,7 @@
 			direction       : 'ttb',
 			heightRatio : 3.1,
 			perPage: 15,
+			pauseOnFocus: true,
 			// dragMinThreshold: {
 			//   mouse: 4,
 			//   touch: 10,

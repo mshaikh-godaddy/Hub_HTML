@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
 	.navbar-collapse.collapse:not(.show) { display: flex !important; }
 	.mobile-menu, .nav-item .arrow-ico { display: none; }	
-	.container.large-container { max-width: 1638px; width: 86%; }
+	.tld-details .container { max-width: 1638px; width: 86%; }
 	
 }
 

@@ -389,6 +389,30 @@ select::-ms-expand { display:none; }
 .who-using-tld-box figure img { width: 100%; height: auto; -webkit-transition: 0.35s all; transition: 0.35s all; transform: scale(1); }
 .who-using-tld-box a:hover figure img { transform: scale(1.05); }
 .tld-site-link a { color: #09757A; text-decoration: underline; }
+.tld-search-bottom-row h2 { color: inherit; }
+.tld-banner-box .tld-text h2 { line-height: 1; }
 
+.tld-unsupported { background-color: #f5f7f8; color: #444; border: 2px solid #d6d6d6; }
+.tld-unsupported h3 { color: #444; font-family: "GDSherpa-Medium"; word-wrap: break-word; word-break: inherit; line-height: 1; }
+.tld-unsupported p a { color: #111; text-decoration: underline; font-family: "GDSherpa-Regular"; }
+.tld-unsupported figure { margin-top: 0.8rem; }
+
+
+.dot-biz-tld .spot-feature-box { color: #111111; 
+  background:-moz-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%); 
+  background:-webkit-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
+  background:-o-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2F930', endColorstr='#00FFFF', GradientType=0 );
+  background:-ms-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
+  background:linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
+}
+.dot-biz-tld .tld-search-bottom-row { color: #111111; 
+  background:-moz-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%); 
+  background:-webkit-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
+  background:-o-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2F930', endColorstr='#00FFFF', GradientType=0 );
+  background:-ms-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
+  background:linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
+}
 
 
