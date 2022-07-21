@@ -398,21 +398,21 @@ select::-ms-expand { display:none; }
 .tld-unsupported figure svg { width: 100%; height: auto; }
 .tld-unsupported figure svg path { fill: #444; }
 
-.dot-biz-tld .spot-feature-box { color: #111111; 
-  background:-moz-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%); 
-  background:-webkit-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
-  background:-o-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2F930', endColorstr='#00FFFF', GradientType=0 );
-  background:-ms-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
-  background:linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
-}
-.dot-biz-tld .tld-search-bottom-row { color: #111111; 
-  background:-moz-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%); 
-  background:-webkit-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
-  background:-o-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2F930', endColorstr='#00FFFF', GradientType=0 );
-  background:-ms-linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
-  background:linear-gradient(90deg, rgba(0, 255, 255, 1) 0%, rgba(72, 255, 180, 1) 50%, rgba(210, 249, 48, 1) 100%);
-}
-
-
+.who-info-box address { margin: 0; }
+.modal-header { position: relative; }
+.modal-header .btn-close { position: absolute; margin: 0; opacity: 1; right: -0.5rem; top: -0.5rem; }
+.modal-header .modal-title { line-height: 1; }
+.who-info-box { padding: 1.5rem; border-radius: 1rem; }
+.who-info-box span { display: block; white-space: normal; word-break: break-all; }
+.accordion-technical-details .accordion-button span { margin-right: 0.3rem; }
+.accordion-show { display: none; }
+.accordion-hide { display: inline-block; }
+.accordion-button:not(.collapsed) .accordion-hide { display: none; }
+.accordion-button:not(.collapsed) .accordion-show { display: inline-block; }
+.accordion-technical-details  .accordion-button { color: #09757A; padding: 0; border: 0; border-radius: 0; box-shadow: none; outline: none; background: #fff; font-family: 'GDSherpa-Medium', Arial, Helvetica, sans-serif; font-size: 1.1rem; }
+.accordion-technical-details .accordion-item { background: transparent; border: 0; } 
+.accordion-technical-details .accordion-button:after { position: static; margin-right: auto; margin-left: 0.8rem; margin-top: 0.8rem; background: #fff; border-right: 2px solid; border-bottom: 2px solid; height: 0.7rem; width: 0.7rem; transform: rotate(225deg); opacity: 1; transition: 0.5s all; transform-origin: center center; }
+.accordion-technical-details .accordion-button.collapsed:after { margin-top: -0.1rem; transform: rotate(45deg); }
+.accordion-technical-details .accordion-body { padding-left: 0; padding-right: 0; padding-bottom: 0; }
+.accordion-technical-details .accordion-body p:last-child { margin-bottom: 0; }
+.technical-note { opacity: 0.5; }
