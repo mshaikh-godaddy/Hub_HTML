@@ -30,7 +30,12 @@
 
 	$doc.ready(function() {
 /*--------------------------------------------------------------------------------------------------------------------------------------*/		
-	
+		
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+			var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  			return new bootstrap.Tooltip(tooltipTriggerEl)
+		})
+
 		/*var swiper = new Swiper(".tld-slider", {
 			loop:true,
 			spaceBetween: 6,
@@ -178,10 +183,7 @@
 		thumbnails.mount();
 		
 
-		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-			var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  			return new bootstrap.Tooltip(tooltipTriggerEl)
-		})
+		
 
 		
 /*--------------------------------------------------------------------------------------------------------------------------------------*/		

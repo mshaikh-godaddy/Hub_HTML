@@ -53,6 +53,8 @@
 	.tld-cell-box h4 { margin-bottom: 0.5rem; }
 	.tld-cell-box { padding: 2.05rem; font-size: 1.1rem; }
 	.tld-unsupported h3 { font-size: 2rem; }
+
+	.page-title-text h1 { font-size: 4.6rem; }
 }
 
 /*==========================================================================================================*/
@@ -97,6 +99,10 @@
 	.who-using-tld-box .font-xl { font-size: 1.3rem; }
 	.who-using-tld-box figure { margin-bottom: 1.1rem; }
 
+	.page-title-text h1 { font-size: 3.9rem; }
+	.page-title-text { margin: 3rem 0 1rem; }
+	.contact-from-box { max-width: 380px; padding: 2rem; }
+	.contact-map { max-width: 460px; padding-top: 70%; }
 }
 
 /*==========================================================================================================*/
@@ -115,6 +121,11 @@
 	.tld-banner-box .tld-text { max-width: 485px; }
 	.spot-feature-details { padding-left: 0; }
 
+	.faq-accordion .accordion-button { font-size: 1.3rem; }
+	.page-title-text { margin: 2rem 0 0; }
+	.page-title-text h1 { font-size: 3rem; }
+
+	.about-info-box { padding: 6rem 2rem; }
 } 
 
 /*==========================================================================================================*/
@@ -238,6 +249,20 @@
 	.who-using-tld-box { margin-bottom: 1rem; }
 	.tld-site-link .font-xl { font-size: 1.5rem; }
 
+	.faq-accordion .accordion-button { font-size: 1.1rem; padding: 1.2rem 0; }
+	.faq-accordion .accordion-button::after { width: 0.6rem; height: 0.6rem; }
+	.page-title-banner { padding: 3.5rem 0; }
+	.page-title-text { margin: 6rem 0 1rem 0; }
+	.page-title-text h1 { font-size: 2.2rem; }
+	.modal-content.modal-rounded { border-radius: 1rem; }
+	.about-info-box { padding: 4rem 1rem; }
+	.contact-map { max-width: 100%; }
+	.contact-from-box { padding: 0; border: 0; max-width: 100%; margin-top: 1rem; }
+	.contact-address-box h4 { font-size: 1.3rem; margin-bottom: 0.3rem; }
+	.contact-from-title { margin-bottom: 1rem; }
+	.contact-from-title h4 { font-size: 1.2rem; }
+	
+
 }
 /*==========================================================================================================*/
 /* only iphone4 landscape & Potriat 300 by 480*/
@@ -274,6 +299,12 @@
 
 	.tld-text h2 { font-size: 1.813rem; }
 	#header { padding: 1.2rem 0; }
+	.modal-dialog { margin: 2rem; }
+
+	.page-title-text h1 { font-size: 1.9rem; }
+	.modal-content.modal-rounded { border-radius: 0.5rem; }
+	.about-info-box h3 { font-size: 1.3rem; }
+	.about-info-box { padding: 3rem 1rem; }
 	
 }
 
@@ -282,4 +313,6 @@
   .tld-slider { margin-top: 4.5rem; }
   .tld-search-form { padding: 0.4rem 4.4rem 0.4rem 0.5rem; }
   .tld-search-bottom .tld-search-form .form-control { padding: 0 0 0 0.5rem; font-size: 1.1rem; }
+
+  .page-title-text h1 { font-size: 1.6rem; }
 }
