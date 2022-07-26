@@ -400,7 +400,7 @@ select::-ms-expand { display:none; }
 .tld-unsupported h3 figure { margin: 0; }
 .tld-unsupported h3 figure { margin: 0.3rem 0 0 0.2rem; width: 1.5rem; height: 1.5rem; }
 .tld-unsupported h3 figure svg { vertical-align: top; }
-.tld-unsupported h3 strong { word-break: break-all; display: inline-block; }
+.tld-unsupported h3 strong { word-break: break-all; display: inline-block; margin-right: 0.6rem; }
 
 .who-info-box address { margin: 0; }
 .modal-header { position: relative; }
