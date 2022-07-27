@@ -469,7 +469,7 @@ select::-ms-expand { display:none; }
 
 .contact-map { max-width: 600px; width: 100%; background-color: #d6d6d6; border: 1px solid #d6d6d6; position: relative; padding-top: 60%; }
 .contact-map iframe { width: 100%; height: 100%; position: absolute; left: 0; top: 0; }
-.contact-address-box { margin-top: 1rem; font-family: "GDSherpa-Medium"; line-height: 1.7; }
+.contact-address-box { margin-top: 2rem; font-family: "GDSherpa-Medium"; line-height: 1.7; }
 .contact-address-box address { margin: 0 0 0 0; }
 .contact-address-box p:last-child { margin: 0; } 
 .contact-address-box p a { color: inherit; }
