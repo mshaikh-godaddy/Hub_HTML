@@ -63,7 +63,7 @@ a:focus { outline: none; }
 @media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
 	a:active { background-color:transparent; }
 }
-b, strong { font-weight: bold; font-family: 'GDSherpa-Semibold', 'Lato', sans-serif;  }
+b, strong { font-weight: normal; font-family: 'GDSherpa-Bold', 'Lato', sans-serif;  }
 small, .small { font-size: 85%; }
 sub, sup { font-size:80% }
 p { margin:0 0 20px 0; }
@@ -425,7 +425,7 @@ select::-ms-expand { display:none; }
 
 /* FAQ page CSS
 ==================================================================*/
-.page-title-banner { background-color: #767676; padding: 7rem 0 3rem; position: relative; z-index: 1; }
+.page-title-banner { background-color: #767676; padding: 7rem 0 3rem; position: relative; z-index: 1; font-family: "GDSherpa-Medium"; }
 .page-title-banner:after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; z-index: -1;
  background:-moz-linear-gradient(0deg, rgba(17, 17, 17, 0.7) 0%, rgba(17, 17, 17, 0) 47%, rgba(17, 17, 17, 0.7) 100%); 
  background:-webkit-linear-gradient(0deg, rgba(17, 17, 17, 0.7) 0%, rgba(17, 17, 17, 0) 47%, rgba(17, 17, 17, 0.7) 100%);
@@ -437,30 +437,35 @@ select::-ms-expand { display:none; }
 .page-title-text { margin: 7rem 0 2rem; }
 .page-title-text h1 { font-size: 5rem; }
 .section-title h3 strong { font-family: "GDSherpa-Bold"; font-weight: normal; }
-.faq-accordion .accordion-button { padding: 1.5rem 0; font-size: 1.5rem; outline: none; background: #fff; box-shadow: none; color: #111; font-family: "GDSherpa-Bold"; font-weight: normal; }
-.faq-accordion .accordion-button::after { background-color: #fff; border-right: 2px solid #111; border-bottom: 2px solid #111; background: #fff; width: 0.8rem; height: 0.8rem; transform: rotate(45deg); transform-origin: center center; margin-top: 0; opacity: 0.7; } 
-.faq-accordion .accordion-button:not(.collapsed):after { transform: rotate(-135deg); margin-top: 0.6rem; }
+.faq-accordion .accordion-button { padding: 1.5rem 2rem 1.5rem 0; font-size: 1.5rem; outline: none; background: #fff; box-shadow: none; color: #111; font-family: "GDSherpa-Bold"; font-weight: normal; }
+.faq-accordion .accordion-button::after { background-color: #fff; border-right: 2px solid #111; border-bottom: 2px solid #111; background: #fff; width: 0.8rem; height: 0.8rem; transform: rotate(45deg); transform-origin: center center; margin-top: 0; opacity: 0.7; position: absolute; right: 0.7rem; bottom: 0; top: 0; margin: auto; } 
+.faq-accordion .accordion-button:not(.collapsed):after { transform: rotate(-135deg); top: 0.6rem; }
 .faq-accordion .accordion-body { padding: 0 0 1.25rem; }
 .faq-accordion .accordion-item { border-radius: 0; border-left: 0; border-right: 0; border-color: #D6D6D6; }
 .faq-accordion .accordion-item:last-of-type { border-bottom: 0; }
-.about-info-box { padding: 8rem 3rem; background-color: #0B3354; color: #fff; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; position: relative; z-index: 1; position: relative; }
+.about-info-box { padding: 10rem 3rem; background-color: #0B3354; color: #fff; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; position: relative; z-index: 1; }
+.about-info-box h4 { line-height: 1.5; }
 .about-info-box .banner-img { opacity: 1; visibility: visible; background-attachment: fixed; }
-.about-info-box:after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; z-index: -1;
+/*.about-info-box:after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; z-index: -1;
    background:-moz-linear-gradient(0deg, rgba(17, 17, 17, 0.56) 0%, rgba(17, 17, 17, 0) 100%); 
    background:-webkit-linear-gradient(0deg, rgba(17, 17, 17, 0.56) 0%, rgba(17, 17, 17, 0) 100%);
    background:-o-linear-gradient(0deg, rgba(17, 17, 17, 0.56) 0%, rgba(17, 17, 17, 0) 100%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#111111', GradientType=1 );
    background:-ms-linear-gradient(0deg, rgba(17, 17, 17, 0.56) 0%, rgba(17, 17, 17, 0) 100%);
    background:linear-gradient(0deg, rgba(17, 17, 17, 0.56) 0%, rgba(17, 17, 17, 0) 100%); }
-
+*/
 .tooltip-inner { background-color: #111; }
 .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before, .bs-tooltip-top .tooltip-arrow::before { border-top-color: #111; }
 .tooltip.show { opacity: 1; }
 .tooltip-inner { max-width: 300px; padding: 0.75rem 0.8rem; font-size: 0.95rem; }
+.section-title h4 strong { font-weight: normal; font-family: 'GDSherpa-Bold', 'Lato', sans-serif; }
 
 
-.contact-from-box { max-width: 550px; width: 100%; margin: 0 auto; border: 1px solid #d6d6d6; padding: 2.5rem; }
+/* Contact page CSS
+==================================================================*/
+.contact-from-box { max-width: 550px; width: 100%; margin: 0 auto; border: 1px solid #d6d6d6; padding: 2.5rem; font-family: "GDSherpa-Medium"; }
 .contact-from-title { margin-bottom: 2rem; }
+.contact-from-title h4 { font-family: "GDSherpa-Bold"; font-weight: normal; }
 .contact-from .form-group label { color: #111; font-family: 'GDSherpa-Semibold', 'Lato', sans-serif; margin: 0 0 0.5rem 0; }
 .contact-from .form-control { border-color: #d6d6d6; color: #111; font-size: 1rem; }
 .form-control.form-select { padding-top: 0; padding-bottom: 0; }
@@ -474,3 +479,11 @@ select::-ms-expand { display:none; }
 .contact-address-box p:last-child { margin: 0; } 
 .contact-address-box p a { color: inherit; }
 .contact-address-box h4 { font-size: 1.5rem; font-family: "GDSherpa-Bold"; font-weight: normal; }
+
+
+/* Partners page CSS
+==================================================================*/
+.our-partners-logo-list .purchase-domain-logo { max-width: 270px; margin: 2rem auto; width: 100%; }
+.our-partners-logo-list .purchase-domain-logo figure img { transition: 0.35s all; }
+.our-partners-logo-list .purchase-domain-logo figure:hover img { -webkit-filter: grayscale(0); filter: grayscale(0); }
+ 

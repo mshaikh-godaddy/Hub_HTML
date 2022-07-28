@@ -55,6 +55,12 @@
 	.tld-unsupported h3 { font-size: 2rem; }
 
 	.page-title-text h1 { font-size: 4.6rem; }
+	.about-info-box { padding: 5rem 3rem; }
+	.about-info-box h3 { font-size: 1.9rem; }
+	.section-title h4 { font-size: 1.6rem; }
+	.faq-accordion .accordion-button { font-size: 1.4rem; }
+	.contact-from-box { max-width: 460px; }
+	.contact-map-box { max-width: 480px; width: 100%; }
 }
 
 /*==========================================================================================================*/
@@ -249,7 +255,7 @@
 	.who-using-tld-box { margin-bottom: 1rem; }
 	.tld-site-link .font-xl { font-size: 1.5rem; }
 
-	.faq-accordion .accordion-button { font-size: 1.1rem; padding: 1.2rem 0; }
+	.faq-accordion .accordion-button { font-size: 1.1rem; padding: 1.2rem 2rem 1.2rem 0; }
 	.faq-accordion .accordion-button::after { width: 0.6rem; height: 0.6rem; }
 	.page-title-banner { padding: 3.5rem 0; }
 	.page-title-text { margin: 6rem 0 1rem 0; }
@@ -261,7 +267,11 @@
 	.contact-address-box h4 { font-size: 1.3rem; margin-bottom: 0.3rem; }
 	.contact-from-title { margin-bottom: 1rem; }
 	.contact-from-title h4 { font-size: 1.2rem; }
+
+	.about-info-box h3 { font-size: 1.5rem; }
+	.section-title h4 { font-size: 1.4rem; }
 	
+	.our-partners-logo-list .purchase-domain-logo { margin: 1rem auto; }
 
 }
 /*==========================================================================================================*/
@@ -305,6 +315,8 @@
 	.modal-content.modal-rounded { border-radius: 0.5rem; }
 	.about-info-box h3 { font-size: 1.3rem; }
 	.about-info-box { padding: 3rem 1rem; }
+
+	.our-partners-logo-list .purchase-domain-logo { max-width: 190px; }
 	
 }
 
